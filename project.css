@@ -1,0 +1,75 @@
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  /* font gg */
+}
+.anh {
+  width: 1265px;
+  margin: -8px;
+  display: block;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(213, 235, 255);
+  position: absolute;
+  margin: 17px 17px;
+  /* position: absolute; đặt chữ trên ảnh */
+}
+.contact {
+  position: absolute;
+  margin-left: 780px;
+  margin-top: 30px;
+}
+.contact a {
+  text-shadow: 2px 2px 3px rgb(255, 52, 52);
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 6px;
+}
+[href] {
+  background-color: rgb(182, 238, 238);
+  border: 3px solid black;
+  border-radius: 20px;
+}
+[href]:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  background-color: rgb(39, 132, 255);
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.bang {
+  position: absolute; /*ghi đè ảnh*/
+  line-height: 25px;
+  color: azure;
+  width: 350px;
+  height: 450px;
+  margin-top: 130px;
+  margin-left: 40px;
+  border-radius: 12px;
+  opacity: 1;
+  backdrop-filter: blur(5px); /* Kính mờ (px độ mờ của kính) */
+  box-shadow: 3px 5px 10px rgb(255, 255, 255);
+}
+.datvan {
+  display: flex;
+  justify-content: center;
+}
+.ttd {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  border: 2px solid;
+}
+.van {
+  width: 130px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 100px;
+  border: 2px solid;
+}
